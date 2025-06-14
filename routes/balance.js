@@ -19,4 +19,5 @@ router.post("/passiveIncomePerSecond/:id", (req, res) => {
     balance: userBalance.balance,
   });
 });
+module.exports = userBalance;
 module.exports = router;
